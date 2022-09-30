@@ -1,0 +1,84 @@
+
+
+       /* ---------------------------------------------------------------------------------- */
+
+       #sidebar{
+        position: fixed;
+        top: 66px;
+        left: 50px;
+        min-width: 300px;
+        width: 300px;
+        height: calc(100vh - 60px);
+        background: #fff;
+        padding-right: 10px;
+    }
+    /* -------------------------------------------------------------------------------------------- */
+
+    #main{
+        width:calc(100%-340px);
+        margin-top: 120px;
+        margin-left: 420px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        margin-right: 150px;
+
+        
+       
+    }
+    
+.product-card {
+    width: 290px;
+    padding: 5px;
+    height: max-content;
+    border: 1px solid rgba(14,4,5,.2);
+    border-radius: 4px;
+    overflow: hiden;
+}
+
+.imgDiv{
+    margin: auto;
+    width: 280px;
+    height: 150px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imgDiv>img{
+    max-width:100%;
+    max-height:100%;
+    
+}
+.lastDiv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: -18px;
+    color: rgba(52, 25, 0, 0.64);
+    margin-bottom: -16px;
+}
+.dataDiv{
+    font-size: 14px;
+    margin: 15px;
+}
+.dataDiv>h1{
+    font-size: 20px;
+    margin-top: -14px;
+}
+.dataDiv>p{
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgba(52, 25, 0, 0.64);
+    font-size: 14px;
+    margin-top: -14px;
+}
+/* --------------------------------------------- */
+#filterdiv{
+    margin-left: 1175px;
+    margin-top: 120px;
+    margin-bottom: -120px;
+    
+}
